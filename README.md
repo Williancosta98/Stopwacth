@@ -19,3 +19,6 @@
 <p> • Controle de eventos no JavaScript</p>
 <br>
 <h2><b>Demonstração 💻</b></h2>
+<img alt="stopwatch-gif" src="https://github.com/Williancosta98/Stopwacth/blob/master/imgs-projects/stopwatch.gif?raw=true">
+<br>
+<p>Esse projeto me ajudou a entender melhor como manipular elementos da página, trabalhar com lógica de execução e controle de tempo.</p>
