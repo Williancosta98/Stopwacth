@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('fonts/DS-DIGIT.TTF') format('truetype');
+}
+
+* {
+    font-family: 'DS-Digital', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #E9E9E9;
+}
+
+.container {
+    width: 510px;
+    height: 275px;
+    ;
+    background: linear-gradient(315deg, #B0B0B0 0%, #E9E9E9 50%);
+    border: solid 1px #B0B0B0;
+    border-radius: 65px;
+    margin-top: 15%;
+   box-shadow: 0 0 15px rgba(0, 95, 183, 0.7);
+}
+
+.number-counter {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* deixa redondo */
+    border: 8px solid transparent; /* necessário para funcionar o efeito */
+    background:
+    linear-gradient(#E9E9E9, #E9E9E9) padding-box, /* fundo da caixa */
+    linear-gradient(to right, #005FB7, #8EDDFF) border-box; /* borda colorida */
+    display: inline-block;
+    margin: 15px;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 3px rgba(0, 209, 255, 0.40);
+    font-size: 74px;
+    font-weight: 400;
+    background: linear-gradient(315deg, #005FB7 0%, #8EDDFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 35px;
+
+}
+
+.stopwatch-numbers {
+    display: inline-block;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.button-reset {
+    margin-left: 90px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    background: url() no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    margin-top: 200px;
+    margin-top: 90px;
+    position: relative;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.4;
+}
